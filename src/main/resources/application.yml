@@ -1,0 +1,25 @@
+# Tomcat
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  port: 8010
+  servlet:
+    context-path: /
+
+spring:
+  profiles:
+    active: ${ENV_TYPE:local}
+
+swagger:
+  enable:true
+
+logging:
+  config: classpath:log4j2-dev.yml
+
+mybatis:
+  configuration:
+    default-statement-timeout: 180
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mappers/*xml
+  type-aliases-package: com.zg.lowcode.entity
+

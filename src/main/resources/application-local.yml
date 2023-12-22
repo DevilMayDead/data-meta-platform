@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${DTJOY_MYSQL_IP:172.168.30.75}:${DTJOY_MYSQL_PORT:3006}/low_code?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: ${DTJOY_MYSQL_USERNAME:root}
+    password: ${DTJOY_MYSQL_PASSWORD:Dexy#2021}
+    driver-class-name: com.mysql.cj.jdbc.Driver

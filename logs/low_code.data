@@ -1,0 +1,400 @@
+20231220212339|0000012000101|INFO ||2023-12-20 21:23:39.598 main LowCodeBackendApplication 55 - Starting LowCodeBackendApplication on DESKTOP-1CKAT7S with PID 324992 (D:\私有项目\low-code-system\backend\low-code-backend\target\classes started by 赵刚 in D:\私有项目\low-code-system\backend\low-code-backend)
+20231220212339|0000012000101|INFO ||2023-12-20 21:23:39.603 main LowCodeBackendApplication 655 - The following profiles are active: local
+20231220212340|0000012000101|INFO ||2023-12-20 21:23:40.255 main RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+20231220212340|0000012000101|INFO ||2023-12-20 21:23:40.258 main RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+20231220212340|0000012000101|INFO ||2023-12-20 21:23:40.272 main RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+20231220212340|0000012000101|WARN ||2023-12-20 21:23:40.374 main ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.zg.lowcode]' package. Please check your configuration.
+20231220212340|0000012000101|INFO ||2023-12-20 21:23:40.746 main TomcatWebServer 108 - Tomcat initialized with port(s): 8010 (http)
+20231220212340|0000012000101|INFO ||2023-12-20 21:23:40.754 main Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8010"]
+20231220212340|0000012000101|INFO ||2023-12-20 21:23:40.754 main StandardService 173 - Starting service [Tomcat]
+20231220212340|0000012000101|INFO ||2023-12-20 21:23:40.754 main StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+20231220212340|0000012000101|INFO ||2023-12-20 21:23:40.823 main [/] 173 - Initializing Spring embedded WebApplicationContext
+20231220212340|0000012000101|INFO ||2023-12-20 21:23:40.825 main ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 1192 ms
+20231220212341|0000012000101|INFO ||2023-12-20 21:23:41.219 main PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20231220212341|0000012000101|INFO ||2023-12-20 21:23:41.339 main ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+20231220212341|0000012000101|INFO ||2023-12-20 21:23:41.429 main WelcomePageHandlerMapping 53 - Adding welcome page: class path resource [static/index.html]
+20231220212341|0000012000101|INFO ||2023-12-20 21:23:41.896 main UserDetailsServiceAutoConfiguration 86 - 
+
+Using generated security password: 02ddb231-58f7-4405-a9a5-e5fc65bf203e
+
+20231220212341|0000012000101|INFO ||2023-12-20 21:23:41.972 main DefaultSecurityFilterChain 43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@508b4f70, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d67b2b3, org.springframework.security.web.header.HeaderWriterFilter@1fec9d33, org.springframework.security.web.csrf.CsrfFilter@3ccefe1b, org.springframework.security.web.authentication.logout.LogoutFilter@22b3b5d0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3a45308f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@65b19e5c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@32f14274, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@66130c3b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7efa366, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@237aba92, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7af56b26, org.springframework.security.web.session.SessionManagementFilter@8e8ceb3, org.springframework.security.web.access.ExceptionTranslationFilter@301770d9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52b891de]
+20231220212342|0000012000101|INFO ||2023-12-20 21:23:42.009 main Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8010"]
+20231220212342|0000012000101|INFO ||2023-12-20 21:23:42.048 main TomcatWebServer 220 - Tomcat started on port(s): 8010 (http) with context path ''
+20231220212342|0000012000101|INFO ||2023-12-20 21:23:42.049 main DocumentationPluginsBootstrapper 160 - Context refreshed
+20231220212342|0000012000101|INFO ||2023-12-20 21:23:42.083 main DocumentationPluginsBootstrapper 163 - Found 1 custom documentation plugin(s)
+20231220212342|0000012000101|INFO ||2023-12-20 21:23:42.105 main ApiListingReferenceScanner 41 - Scanning for api listing references
+20231220212342|0000012000101|INFO ||2023-12-20 21:23:42.126 main LowCodeBackendApplication 61 - Started LowCodeBackendApplication in 3.089 seconds (JVM running for 3.978)
+20231220212349|0000012000101|INFO ||2023-12-20 21:23:49.723 http-nio-8010-exec-1 [/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20231220212349|0000012000101|INFO ||2023-12-20 21:23:49.723 http-nio-8010-exec-1 DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+20231220212349|0000012000101|INFO ||2023-12-20 21:23:49.744 http-nio-8010-exec-1 DispatcherServlet 547 - Completed initialization in 21 ms
+20231220212359|0000012000101|INFO ||2023-12-20 21:23:59.246 SpringContextShutdownHook ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+20231220212441|0000012000101|INFO ||2023-12-20 21:24:41.347 main LowCodeBackendApplication 55 - Starting LowCodeBackendApplication on DESKTOP-1CKAT7S with PID 193604 (D:\私有项目\low-code-system\backend\low-code-backend\target\classes started by 赵刚 in D:\私有项目\low-code-system\backend\low-code-backend)
+20231220212441|0000012000101|INFO ||2023-12-20 21:24:41.356 main LowCodeBackendApplication 655 - The following profiles are active: local
+20231220212441|0000012000101|INFO ||2023-12-20 21:24:41.893 main RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+20231220212441|0000012000101|INFO ||2023-12-20 21:24:41.895 main RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+20231220212441|0000012000101|INFO ||2023-12-20 21:24:41.909 main RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+20231220212441|0000012000101|WARN ||2023-12-20 21:24:41.989 main ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.zg.lowcode]' package. Please check your configuration.
+20231220212442|0000012000101|INFO ||2023-12-20 21:24:42.447 main TomcatWebServer 108 - Tomcat initialized with port(s): 8010 (http)
+20231220212442|0000012000101|INFO ||2023-12-20 21:24:42.455 main Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8010"]
+20231220212442|0000012000101|INFO ||2023-12-20 21:24:42.455 main StandardService 173 - Starting service [Tomcat]
+20231220212442|0000012000101|INFO ||2023-12-20 21:24:42.455 main StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+20231220212442|0000012000101|INFO ||2023-12-20 21:24:42.540 main [/] 173 - Initializing Spring embedded WebApplicationContext
+20231220212442|0000012000101|INFO ||2023-12-20 21:24:42.541 main ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 1149 ms
+20231220212442|0000012000101|INFO ||2023-12-20 21:24:42.854 main PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20231220212442|0000012000101|INFO ||2023-12-20 21:24:42.937 main ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+20231220212442|0000012000101|INFO ||2023-12-20 21:24:42.996 main WelcomePageHandlerMapping 53 - Adding welcome page: class path resource [static/index.html]
+20231220212443|0000012000101|INFO ||2023-12-20 21:24:43.437 main Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8010"]
+20231220212443|0000012000101|INFO ||2023-12-20 21:24:43.475 main TomcatWebServer 220 - Tomcat started on port(s): 8010 (http) with context path ''
+20231220212443|0000012000101|INFO ||2023-12-20 21:24:43.476 main DocumentationPluginsBootstrapper 160 - Context refreshed
+20231220212443|0000012000101|INFO ||2023-12-20 21:24:43.490 main DocumentationPluginsBootstrapper 163 - Found 1 custom documentation plugin(s)
+20231220212443|0000012000101|INFO ||2023-12-20 21:24:43.517 main ApiListingReferenceScanner 41 - Scanning for api listing references
+20231220212443|0000012000101|INFO ||2023-12-20 21:24:43.537 main LowCodeBackendApplication 61 - Started LowCodeBackendApplication in 2.619 seconds (JVM running for 3.528)
+20231220212443|0000012000101|INFO ||2023-12-20 21:24:43.548 http-nio-8010-exec-1 [/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20231220212443|0000012000101|INFO ||2023-12-20 21:24:43.548 http-nio-8010-exec-1 DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+20231220212443|0000012000101|INFO ||2023-12-20 21:24:43.552 http-nio-8010-exec-1 DispatcherServlet 547 - Completed initialization in 4 ms
+20231220212834|0000012000101|INFO ||2023-12-20 21:28:34.030 SpringContextShutdownHook ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+20231220212906|0000012000101|INFO ||2023-12-20 21:29:06.448 main LowCodeBackendApplication 55 - Starting LowCodeBackendApplication on DESKTOP-1CKAT7S with PID 313888 (D:\私有项目\low-code-system\backend\low-code-backend\target\classes started by 赵刚 in D:\私有项目\low-code-system\backend\low-code-backend)
+20231220212906|0000012000101|INFO ||2023-12-20 21:29:06.456 main LowCodeBackendApplication 655 - The following profiles are active: local
+20231220212906|0000012000101|INFO ||2023-12-20 21:29:06.998 main RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+20231220212907|0000012000101|INFO ||2023-12-20 21:29:07.002 main RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+20231220212907|0000012000101|INFO ||2023-12-20 21:29:07.019 main RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+20231220212907|0000012000101|WARN ||2023-12-20 21:29:07.103 main ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.zg.lowcode]' package. Please check your configuration.
+20231220212907|0000012000101|INFO ||2023-12-20 21:29:07.519 main TomcatWebServer 108 - Tomcat initialized with port(s): 8010 (http)
+20231220212907|0000012000101|INFO ||2023-12-20 21:29:07.527 main Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8010"]
+20231220212907|0000012000101|INFO ||2023-12-20 21:29:07.528 main StandardService 173 - Starting service [Tomcat]
+20231220212907|0000012000101|INFO ||2023-12-20 21:29:07.529 main StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+20231220212907|0000012000101|INFO ||2023-12-20 21:29:07.598 main [/] 173 - Initializing Spring embedded WebApplicationContext
+20231220212907|0000012000101|INFO ||2023-12-20 21:29:07.598 main ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 1107 ms
+20231220212907|0000012000101|INFO ||2023-12-20 21:29:07.973 main PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20231220212908|0000012000101|INFO ||2023-12-20 21:29:08.045 main ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+20231220212908|0000012000101|INFO ||2023-12-20 21:29:08.107 main WelcomePageHandlerMapping 53 - Adding welcome page: class path resource [static/index.html]
+20231220212908|0000012000101|INFO ||2023-12-20 21:29:08.591 main Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8010"]
+20231220212908|0000012000101|INFO ||2023-12-20 21:29:08.638 main TomcatWebServer 220 - Tomcat started on port(s): 8010 (http) with context path ''
+20231220212908|0000012000101|INFO ||2023-12-20 21:29:08.639 main DocumentationPluginsBootstrapper 160 - Context refreshed
+20231220212908|0000012000101|INFO ||2023-12-20 21:29:08.653 main DocumentationPluginsBootstrapper 163 - Found 1 custom documentation plugin(s)
+20231220212908|0000012000101|INFO ||2023-12-20 21:29:08.672 main ApiListingReferenceScanner 41 - Scanning for api listing references
+20231220212908|0000012000101|INFO ||2023-12-20 21:29:08.689 main LowCodeBackendApplication 61 - Started LowCodeBackendApplication in 2.69 seconds (JVM running for 3.397)
+20231220212909|0000012000101|INFO ||2023-12-20 21:29:09.876 http-nio-8010-exec-1 [/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20231220212909|0000012000101|INFO ||2023-12-20 21:29:09.876 http-nio-8010-exec-1 DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+20231220212909|0000012000101|INFO ||2023-12-20 21:29:09.886 http-nio-8010-exec-1 DispatcherServlet 547 - Completed initialization in 10 ms
+20231220213511|0000012000101|INFO ||2023-12-20 21:35:11.220 SpringContextShutdownHook ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+20231220213515|0000012000101|INFO ||2023-12-20 21:35:15.344 main LowCodeBackendApplication 55 - Starting LowCodeBackendApplication on DESKTOP-1CKAT7S with PID 379456 (D:\私有项目\low-code-system\backend\low-code-backend\target\classes started by 赵刚 in D:\私有项目\low-code-system\backend\low-code-backend)
+20231220213515|0000012000101|INFO ||2023-12-20 21:35:15.352 main LowCodeBackendApplication 655 - The following profiles are active: local
+20231220213515|0000012000101|INFO ||2023-12-20 21:35:15.993 main RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+20231220213515|0000012000101|INFO ||2023-12-20 21:35:15.997 main RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+20231220213516|0000012000101|INFO ||2023-12-20 21:35:16.019 main RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+20231220213516|0000012000101|WARN ||2023-12-20 21:35:16.105 main ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.zg.lowcode]' package. Please check your configuration.
+20231220213516|0000012000101|INFO ||2023-12-20 21:35:16.506 main TomcatWebServer 108 - Tomcat initialized with port(s): 8010 (http)
+20231220213516|0000012000101|INFO ||2023-12-20 21:35:16.515 main Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8010"]
+20231220213516|0000012000101|INFO ||2023-12-20 21:35:16.516 main StandardService 173 - Starting service [Tomcat]
+20231220213516|0000012000101|INFO ||2023-12-20 21:35:16.516 main StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+20231220213516|0000012000101|INFO ||2023-12-20 21:35:16.585 main [/] 173 - Initializing Spring embedded WebApplicationContext
+20231220213516|0000012000101|INFO ||2023-12-20 21:35:16.586 main ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 1202 ms
+20231220213516|0000012000101|INFO ||2023-12-20 21:35:16.985 main PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20231220213517|0000012000101|INFO ||2023-12-20 21:35:17.052 main ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+20231220213517|0000012000101|INFO ||2023-12-20 21:35:17.108 main WelcomePageHandlerMapping 53 - Adding welcome page: class path resource [static/index.html]
+20231220213517|0000012000101|INFO ||2023-12-20 21:35:17.697 main Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8010"]
+20231220213517|0000012000101|INFO ||2023-12-20 21:35:17.738 main TomcatWebServer 220 - Tomcat started on port(s): 8010 (http) with context path ''
+20231220213517|0000012000101|INFO ||2023-12-20 21:35:17.739 main DocumentationPluginsBootstrapper 160 - Context refreshed
+20231220213517|0000012000101|INFO ||2023-12-20 21:35:17.754 main DocumentationPluginsBootstrapper 163 - Found 1 custom documentation plugin(s)
+20231220213517|0000012000101|INFO ||2023-12-20 21:35:17.776 main ApiListingReferenceScanner 41 - Scanning for api listing references
+20231220213517|0000012000101|INFO ||2023-12-20 21:35:17.925 main LowCodeBackendApplication 61 - Started LowCodeBackendApplication in 3.053 seconds (JVM running for 3.777)
+20231220213522|0000012000101|INFO ||2023-12-20 21:35:22.494 http-nio-8010-exec-1 [/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20231220213522|0000012000101|INFO ||2023-12-20 21:35:22.495 http-nio-8010-exec-1 DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+20231220213522|0000012000101|INFO ||2023-12-20 21:35:22.500 http-nio-8010-exec-1 DispatcherServlet 547 - Completed initialization in 5 ms
+20231221094859|0000012000101|INFO ||2023-12-21 09:48:59.706 main LowCodeBackendApplication 55 - Starting LowCodeBackendApplication on DESKTOP-1CKAT7S with PID 113652 (D:\私有项目\low-code-system\backend\low-code-backend\target\classes started by 赵刚 in D:\私有项目\low-code-system\backend\low-code-backend)
+20231221094859|0000012000101|INFO ||2023-12-21 09:48:59.715 main LowCodeBackendApplication 655 - The following profiles are active: local
+20231221094900|0000012000101|INFO ||2023-12-21 09:49:00.421 main RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+20231221094900|0000012000101|INFO ||2023-12-21 09:49:00.424 main RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+20231221094900|0000012000101|INFO ||2023-12-21 09:49:00.439 main RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+20231221094900|0000012000101|WARN ||2023-12-21 09:49:00.536 main ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.zg.lowcode]' package. Please check your configuration.
+20231221094901|0000012000101|INFO ||2023-12-21 09:49:01.044 main TomcatWebServer 108 - Tomcat initialized with port(s): 8010 (http)
+20231221094901|0000012000101|INFO ||2023-12-21 09:49:01.056 main Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8010"]
+20231221094901|0000012000101|INFO ||2023-12-21 09:49:01.057 main StandardService 173 - Starting service [Tomcat]
+20231221094901|0000012000101|INFO ||2023-12-21 09:49:01.058 main StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+20231221094901|0000012000101|INFO ||2023-12-21 09:49:01.190 main [/] 173 - Initializing Spring embedded WebApplicationContext
+20231221094901|0000012000101|INFO ||2023-12-21 09:49:01.191 main ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 1435 ms
+20231221094901|0000012000101|INFO ||2023-12-21 09:49:01.639 main PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20231221094901|0000012000101|INFO ||2023-12-21 09:49:01.731 main ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+20231221094901|0000012000101|INFO ||2023-12-21 09:49:01.815 main WelcomePageHandlerMapping 53 - Adding welcome page: class path resource [static/index.html]
+20231221094902|0000012000101|INFO ||2023-12-21 09:49:02.391 main Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8010"]
+20231221094902|0000012000101|INFO ||2023-12-21 09:49:02.434 main TomcatWebServer 220 - Tomcat started on port(s): 8010 (http) with context path ''
+20231221094902|0000012000101|INFO ||2023-12-21 09:49:02.434 main DocumentationPluginsBootstrapper 160 - Context refreshed
+20231221094902|0000012000101|INFO ||2023-12-21 09:49:02.450 main DocumentationPluginsBootstrapper 163 - Found 1 custom documentation plugin(s)
+20231221094902|0000012000101|INFO ||2023-12-21 09:49:02.469 main ApiListingReferenceScanner 41 - Scanning for api listing references
+20231221094902|0000012000101|INFO ||2023-12-21 09:49:02.525 main LowCodeBackendApplication 61 - Started LowCodeBackendApplication in 3.43 seconds (JVM running for 4.943)
+20231221095025|0000012000101|INFO ||2023-12-21 09:50:25.119 http-nio-8010-exec-1 [/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20231221095025|0000012000101|INFO ||2023-12-21 09:50:25.120 http-nio-8010-exec-1 DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+20231221095025|0000012000101|INFO ||2023-12-21 09:50:25.125 http-nio-8010-exec-1 DispatcherServlet 547 - Completed initialization in 4 ms
+20231221095658|0000012000101|INFO ||2023-12-21 09:56:58.925 SpringContextShutdownHook ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+20231221095702|0000012000101|INFO ||2023-12-21 09:57:02.813 main LowCodeBackendApplication 55 - Starting LowCodeBackendApplication on DESKTOP-1CKAT7S with PID 65684 (D:\私有项目\low-code-system\backend\low-code-backend\target\classes started by 赵刚 in D:\私有项目\low-code-system\backend\low-code-backend)
+20231221095702|0000012000101|INFO ||2023-12-21 09:57:02.825 main LowCodeBackendApplication 655 - The following profiles are active: local
+20231221095703|0000012000101|INFO ||2023-12-21 09:57:03.469 main RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+20231221095703|0000012000101|INFO ||2023-12-21 09:57:03.472 main RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+20231221095703|0000012000101|INFO ||2023-12-21 09:57:03.489 main RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+20231221095703|0000012000101|WARN ||2023-12-21 09:57:03.583 main ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.zg.lowcode]' package. Please check your configuration.
+20231221095703|0000012000101|INFO ||2023-12-21 09:57:03.964 main TomcatWebServer 108 - Tomcat initialized with port(s): 8010 (http)
+20231221095703|0000012000101|INFO ||2023-12-21 09:57:03.972 main Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8010"]
+20231221095703|0000012000101|INFO ||2023-12-21 09:57:03.972 main StandardService 173 - Starting service [Tomcat]
+20231221095703|0000012000101|INFO ||2023-12-21 09:57:03.973 main StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+20231221095704|0000012000101|INFO ||2023-12-21 09:57:04.041 main [/] 173 - Initializing Spring embedded WebApplicationContext
+20231221095704|0000012000101|INFO ||2023-12-21 09:57:04.041 main ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 1172 ms
+20231221095704|0000012000101|INFO ||2023-12-21 09:57:04.417 main PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20231221095704|0000012000101|INFO ||2023-12-21 09:57:04.495 main ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+20231221095704|0000012000101|INFO ||2023-12-21 09:57:04.566 main WelcomePageHandlerMapping 53 - Adding welcome page: class path resource [static/index.html]
+20231221095705|0000012000101|INFO ||2023-12-21 09:57:05.135 main Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8010"]
+20231221095705|0000012000101|INFO ||2023-12-21 09:57:05.173 main TomcatWebServer 220 - Tomcat started on port(s): 8010 (http) with context path ''
+20231221095705|0000012000101|INFO ||2023-12-21 09:57:05.174 main DocumentationPluginsBootstrapper 160 - Context refreshed
+20231221095705|0000012000101|INFO ||2023-12-21 09:57:05.187 main DocumentationPluginsBootstrapper 163 - Found 1 custom documentation plugin(s)
+20231221095705|0000012000101|INFO ||2023-12-21 09:57:05.206 main ApiListingReferenceScanner 41 - Scanning for api listing references
+20231221095705|0000012000101|INFO ||2023-12-21 09:57:05.266 main LowCodeBackendApplication 61 - Started LowCodeBackendApplication in 2.937 seconds (JVM running for 3.781)
+20231221095707|0000012000101|INFO ||2023-12-21 09:57:07.580 http-nio-8010-exec-1 [/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20231221095707|0000012000101|INFO ||2023-12-21 09:57:07.581 http-nio-8010-exec-1 DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+20231221095707|0000012000101|INFO ||2023-12-21 09:57:07.584 http-nio-8010-exec-1 DispatcherServlet 547 - Completed initialization in 3 ms
+20231221095912|0000012000101|INFO ||2023-12-21 09:59:12.116 SpringContextShutdownHook ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+20231221095915|0000012000101|INFO ||2023-12-21 09:59:15.517 main LowCodeBackendApplication 55 - Starting LowCodeBackendApplication on DESKTOP-1CKAT7S with PID 68852 (D:\私有项目\low-code-system\backend\low-code-backend\target\classes started by 赵刚 in D:\私有项目\low-code-system\backend\low-code-backend)
+20231221095915|0000012000101|INFO ||2023-12-21 09:59:15.523 main LowCodeBackendApplication 655 - The following profiles are active: local
+20231221095916|0000012000101|INFO ||2023-12-21 09:59:16.137 main RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+20231221095916|0000012000101|INFO ||2023-12-21 09:59:16.140 main RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+20231221095916|0000012000101|INFO ||2023-12-21 09:59:16.159 main RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+20231221095916|0000012000101|WARN ||2023-12-21 09:59:16.234 main ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.zg.lowcode]' package. Please check your configuration.
+20231221095916|0000012000101|INFO ||2023-12-21 09:59:16.696 main TomcatWebServer 108 - Tomcat initialized with port(s): 8010 (http)
+20231221095916|0000012000101|INFO ||2023-12-21 09:59:16.709 main Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8010"]
+20231221095916|0000012000101|INFO ||2023-12-21 09:59:16.709 main StandardService 173 - Starting service [Tomcat]
+20231221095916|0000012000101|INFO ||2023-12-21 09:59:16.710 main StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+20231221095916|0000012000101|INFO ||2023-12-21 09:59:16.778 main [/] 173 - Initializing Spring embedded WebApplicationContext
+20231221095916|0000012000101|INFO ||2023-12-21 09:59:16.778 main ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 1223 ms
+20231221095917|0000012000101|INFO ||2023-12-21 09:59:17.168 main PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20231221095917|0000012000101|INFO ||2023-12-21 09:59:17.242 main ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+20231221095917|0000012000101|INFO ||2023-12-21 09:59:17.301 main WelcomePageHandlerMapping 53 - Adding welcome page: class path resource [static/index.html]
+20231221095917|0000012000101|INFO ||2023-12-21 09:59:17.918 main Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8010"]
+20231221095917|0000012000101|INFO ||2023-12-21 09:59:17.963 main TomcatWebServer 220 - Tomcat started on port(s): 8010 (http) with context path ''
+20231221095917|0000012000101|INFO ||2023-12-21 09:59:17.964 main DocumentationPluginsBootstrapper 160 - Context refreshed
+20231221095917|0000012000101|INFO ||2023-12-21 09:59:17.977 main DocumentationPluginsBootstrapper 163 - Found 1 custom documentation plugin(s)
+20231221095918|0000012000101|INFO ||2023-12-21 09:59:18.003 main ApiListingReferenceScanner 41 - Scanning for api listing references
+20231221095918|0000012000101|INFO ||2023-12-21 09:59:18.068 main LowCodeBackendApplication 61 - Started LowCodeBackendApplication in 2.994 seconds (JVM running for 3.789)
+20231221095926|0000012000101|INFO ||2023-12-21 09:59:26.292 http-nio-8010-exec-1 [/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20231221095926|0000012000101|INFO ||2023-12-21 09:59:26.293 http-nio-8010-exec-1 DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+20231221095926|0000012000101|INFO ||2023-12-21 09:59:26.298 http-nio-8010-exec-1 DispatcherServlet 547 - Completed initialization in 5 ms
+20231221100100|0000012000101|INFO ||2023-12-21 10:01:00.061 SpringContextShutdownHook ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+20231221100103|0000012000101|INFO ||2023-12-21 10:01:03.660 main LowCodeBackendApplication 55 - Starting LowCodeBackendApplication on DESKTOP-1CKAT7S with PID 158092 (D:\私有项目\low-code-system\backend\low-code-backend\target\classes started by 赵刚 in D:\私有项目\low-code-system\backend\low-code-backend)
+20231221100103|0000012000101|INFO ||2023-12-21 10:01:03.665 main LowCodeBackendApplication 655 - The following profiles are active: local
+20231221100104|0000012000101|INFO ||2023-12-21 10:01:04.184 main RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+20231221100104|0000012000101|INFO ||2023-12-21 10:01:04.187 main RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+20231221100104|0000012000101|INFO ||2023-12-21 10:01:04.206 main RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+20231221100104|0000012000101|WARN ||2023-12-21 10:01:04.294 main ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.zg.lowcode]' package. Please check your configuration.
+20231221100104|0000012000101|INFO ||2023-12-21 10:01:04.671 main TomcatWebServer 108 - Tomcat initialized with port(s): 8010 (http)
+20231221100104|0000012000101|INFO ||2023-12-21 10:01:04.678 main Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8010"]
+20231221100104|0000012000101|INFO ||2023-12-21 10:01:04.679 main StandardService 173 - Starting service [Tomcat]
+20231221100104|0000012000101|INFO ||2023-12-21 10:01:04.679 main StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+20231221100104|0000012000101|INFO ||2023-12-21 10:01:04.754 main [/] 173 - Initializing Spring embedded WebApplicationContext
+20231221100104|0000012000101|INFO ||2023-12-21 10:01:04.754 main ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 1062 ms
+20231221100105|0000012000101|INFO ||2023-12-21 10:01:05.100 main PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20231221100105|0000012000101|INFO ||2023-12-21 10:01:05.604 main Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8010"]
+20231221100105|0000012000101|INFO ||2023-12-21 10:01:05.642 main TomcatWebServer 220 - Tomcat started on port(s): 8010 (http) with context path ''
+20231221100105|0000012000101|INFO ||2023-12-21 10:01:05.642 main DocumentationPluginsBootstrapper 160 - Context refreshed
+20231221100105|0000012000101|INFO ||2023-12-21 10:01:05.656 main DocumentationPluginsBootstrapper 163 - Found 1 custom documentation plugin(s)
+20231221100105|0000012000101|INFO ||2023-12-21 10:01:05.682 main ApiListingReferenceScanner 41 - Scanning for api listing references
+20231221100105|0000012000101|INFO ||2023-12-21 10:01:05.733 main LowCodeBackendApplication 61 - Started LowCodeBackendApplication in 2.541 seconds (JVM running for 3.299)
+20231221100112|0000012000101|INFO ||2023-12-21 10:01:12.967 http-nio-8010-exec-1 [/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20231221100112|0000012000101|INFO ||2023-12-21 10:01:12.967 http-nio-8010-exec-1 DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+20231221100112|0000012000101|INFO ||2023-12-21 10:01:12.970 http-nio-8010-exec-1 DispatcherServlet 547 - Completed initialization in 3 ms
+20231221100921|0000012000101|INFO ||2023-12-21 10:09:21.253 main LowCodeBackendApplication 55 - Starting LowCodeBackendApplication on DESKTOP-1CKAT7S with PID 225160 (D:\私有项目\low-code-system\backend\low-code-backend\target\classes started by 赵刚 in D:\私有项目\low-code-system\backend\low-code-backend)
+20231221100921|0000012000101|INFO ||2023-12-21 10:09:21.258 main LowCodeBackendApplication 655 - The following profiles are active: local
+20231221100921|0000012000101|INFO ||2023-12-21 10:09:21.787 main RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+20231221100921|0000012000101|INFO ||2023-12-21 10:09:21.789 main RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+20231221100921|0000012000101|INFO ||2023-12-21 10:09:21.804 main RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+20231221100921|0000012000101|WARN ||2023-12-21 10:09:21.861 main ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.zg.lowcode]' package. Please check your configuration.
+20231221100922|0000012000101|INFO ||2023-12-21 10:09:22.111 main TomcatWebServer 108 - Tomcat initialized with port(s): 8010 (http)
+20231221100922|0000012000101|INFO ||2023-12-21 10:09:22.117 main Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8010"]
+20231221100922|0000012000101|INFO ||2023-12-21 10:09:22.117 main StandardService 173 - Starting service [Tomcat]
+20231221100922|0000012000101|INFO ||2023-12-21 10:09:22.118 main StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+20231221100922|0000012000101|INFO ||2023-12-21 10:09:22.178 main [/] 173 - Initializing Spring embedded WebApplicationContext
+20231221100922|0000012000101|INFO ||2023-12-21 10:09:22.178 main ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 877 ms
+20231221100922|0000012000101|INFO ||2023-12-21 10:09:22.414 main PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20231221100922|0000012000101|INFO ||2023-12-21 10:09:22.535 main ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+20231221100922|0000012000101|INFO ||2023-12-21 10:09:22.576 main WelcomePageHandlerMapping 53 - Adding welcome page: class path resource [static/index.html]
+20231221100922|0000012000101|INFO ||2023-12-21 10:09:22.910 main Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8010"]
+20231221100922|0000012000101|INFO ||2023-12-21 10:09:22.924 main TomcatWebServer 220 - Tomcat started on port(s): 8010 (http) with context path ''
+20231221100922|0000012000101|INFO ||2023-12-21 10:09:22.925 main DocumentationPluginsBootstrapper 160 - Context refreshed
+20231221100922|0000012000101|INFO ||2023-12-21 10:09:22.935 main DocumentationPluginsBootstrapper 163 - Found 1 custom documentation plugin(s)
+20231221100922|0000012000101|INFO ||2023-12-21 10:09:22.953 main ApiListingReferenceScanner 41 - Scanning for api listing references
+20231221100923|0000012000101|INFO ||2023-12-21 10:09:23.003 main LowCodeBackendApplication 61 - Started LowCodeBackendApplication in 2.078 seconds (JVM running for 3.227)
+20231221100927|0000012000101|INFO ||2023-12-21 10:09:27.369 http-nio-8010-exec-1 [/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20231221100927|0000012000101|INFO ||2023-12-21 10:09:27.370 http-nio-8010-exec-1 DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+20231221100927|0000012000101|INFO ||2023-12-21 10:09:27.373 http-nio-8010-exec-1 DispatcherServlet 547 - Completed initialization in 3 ms
+20231221101201|0000012000101|INFO ||2023-12-21 10:12:01.894 SpringContextShutdownHook ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+20231221101224|0000012000101|INFO ||2023-12-21 10:12:24.616 main LowCodeBackendApplication 55 - Starting LowCodeBackendApplication on DESKTOP-1CKAT7S with PID 208340 (D:\私有项目\low-code-system\backend\low-code-backend\target\classes started by 赵刚 in D:\私有项目\low-code-system\backend\low-code-backend)
+20231221101224|0000012000101|INFO ||2023-12-21 10:12:24.622 main LowCodeBackendApplication 655 - The following profiles are active: local
+20231221101225|0000012000101|INFO ||2023-12-21 10:12:25.147 main RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+20231221101225|0000012000101|INFO ||2023-12-21 10:12:25.149 main RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+20231221101225|0000012000101|INFO ||2023-12-21 10:12:25.161 main RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+20231221101225|0000012000101|WARN ||2023-12-21 10:12:25.230 main ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.zg.lowcode]' package. Please check your configuration.
+20231221101225|0000012000101|INFO ||2023-12-21 10:12:25.484 main TomcatWebServer 108 - Tomcat initialized with port(s): 8010 (http)
+20231221101225|0000012000101|INFO ||2023-12-21 10:12:25.489 main Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8010"]
+20231221101225|0000012000101|INFO ||2023-12-21 10:12:25.490 main StandardService 173 - Starting service [Tomcat]
+20231221101225|0000012000101|INFO ||2023-12-21 10:12:25.490 main StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+20231221101225|0000012000101|INFO ||2023-12-21 10:12:25.551 main [/] 173 - Initializing Spring embedded WebApplicationContext
+20231221101225|0000012000101|INFO ||2023-12-21 10:12:25.551 main ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 901 ms
+20231221101225|0000012000101|INFO ||2023-12-21 10:12:25.803 main PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20231221101225|0000012000101|INFO ||2023-12-21 10:12:25.962 main ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+20231221101226|0000012000101|INFO ||2023-12-21 10:12:26.002 main WelcomePageHandlerMapping 53 - Adding welcome page: class path resource [static/index.html]
+20231221101226|0000012000101|INFO ||2023-12-21 10:12:26.343 main Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8010"]
+20231221101226|0000012000101|INFO ||2023-12-21 10:12:26.356 main TomcatWebServer 220 - Tomcat started on port(s): 8010 (http) with context path ''
+20231221101226|0000012000101|INFO ||2023-12-21 10:12:26.357 main DocumentationPluginsBootstrapper 160 - Context refreshed
+20231221101226|0000012000101|INFO ||2023-12-21 10:12:26.367 main DocumentationPluginsBootstrapper 163 - Found 1 custom documentation plugin(s)
+20231221101226|0000012000101|INFO ||2023-12-21 10:12:26.383 main ApiListingReferenceScanner 41 - Scanning for api listing references
+20231221101226|0000012000101|INFO ||2023-12-21 10:12:26.429 main LowCodeBackendApplication 61 - Started LowCodeBackendApplication in 2.171 seconds (JVM running for 3.142)
+20231221101230|0000012000101|INFO ||2023-12-21 10:12:30.723 http-nio-8010-exec-1 [/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20231221101230|0000012000101|INFO ||2023-12-21 10:12:30.724 http-nio-8010-exec-1 DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+20231221101230|0000012000101|INFO ||2023-12-21 10:12:30.728 http-nio-8010-exec-1 DispatcherServlet 547 - Completed initialization in 4 ms
+20231221101351|0000012000101|INFO ||2023-12-21 10:13:51.589 SpringContextShutdownHook ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+20231221101407|0000012000101|INFO ||2023-12-21 10:14:07.753 main LowCodeBackendApplication 55 - Starting LowCodeBackendApplication on DESKTOP-1CKAT7S with PID 232100 (D:\私有项目\low-code-system\backend\low-code-backend\target\classes started by 赵刚 in D:\私有项目\low-code-system\backend\low-code-backend)
+20231221101407|0000012000101|INFO ||2023-12-21 10:14:07.760 main LowCodeBackendApplication 655 - The following profiles are active: local
+20231221101408|0000012000101|INFO ||2023-12-21 10:14:08.402 main RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+20231221101408|0000012000101|INFO ||2023-12-21 10:14:08.404 main RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+20231221101408|0000012000101|INFO ||2023-12-21 10:14:08.428 main RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+20231221101408|0000012000101|WARN ||2023-12-21 10:14:08.521 main ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.zg.lowcode]' package. Please check your configuration.
+20231221101408|0000012000101|INFO ||2023-12-21 10:14:08.792 main TomcatWebServer 108 - Tomcat initialized with port(s): 8010 (http)
+20231221101408|0000012000101|INFO ||2023-12-21 10:14:08.801 main Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8010"]
+20231221101408|0000012000101|INFO ||2023-12-21 10:14:08.801 main StandardService 173 - Starting service [Tomcat]
+20231221101408|0000012000101|INFO ||2023-12-21 10:14:08.802 main StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+20231221101408|0000012000101|INFO ||2023-12-21 10:14:08.869 main [/] 173 - Initializing Spring embedded WebApplicationContext
+20231221101408|0000012000101|INFO ||2023-12-21 10:14:08.870 main ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 1063 ms
+20231221101409|0000012000101|INFO ||2023-12-21 10:14:09.126 main PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20231221101409|0000012000101|INFO ||2023-12-21 10:14:09.231 main ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+20231221101409|0000012000101|INFO ||2023-12-21 10:14:09.257 main WelcomePageHandlerMapping 53 - Adding welcome page: class path resource [static/index.html]
+20231221101409|0000012000101|INFO ||2023-12-21 10:14:09.623 main Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8010"]
+20231221101409|0000012000101|INFO ||2023-12-21 10:14:09.639 main TomcatWebServer 220 - Tomcat started on port(s): 8010 (http) with context path ''
+20231221101409|0000012000101|INFO ||2023-12-21 10:14:09.639 main DocumentationPluginsBootstrapper 160 - Context refreshed
+20231221101409|0000012000101|INFO ||2023-12-21 10:14:09.654 main DocumentationPluginsBootstrapper 163 - Found 1 custom documentation plugin(s)
+20231221101409|0000012000101|INFO ||2023-12-21 10:14:09.670 main ApiListingReferenceScanner 41 - Scanning for api listing references
+20231221101409|0000012000101|INFO ||2023-12-21 10:14:09.771 main LowCodeBackendApplication 61 - Started LowCodeBackendApplication in 2.452 seconds (JVM running for 3.586)
+20231221101418|0000012000101|INFO ||2023-12-21 10:14:18.659 http-nio-8010-exec-1 [/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20231221101418|0000012000101|INFO ||2023-12-21 10:14:18.659 http-nio-8010-exec-1 DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+20231221101418|0000012000101|INFO ||2023-12-21 10:14:18.679 http-nio-8010-exec-1 DispatcherServlet 547 - Completed initialization in 20 ms
+20231221101547|0000012000101|INFO ||2023-12-21 10:15:47.951 SpringContextShutdownHook ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+20231221101607|0000012000101|INFO ||2023-12-21 10:16:07.331 main LowCodeBackendApplication 55 - Starting LowCodeBackendApplication on DESKTOP-1CKAT7S with PID 206400 (D:\私有项目\low-code-system\backend\low-code-backend\target\classes started by 赵刚 in D:\私有项目\low-code-system\backend\low-code-backend)
+20231221101607|0000012000101|INFO ||2023-12-21 10:16:07.342 main LowCodeBackendApplication 655 - The following profiles are active: local
+20231221101607|0000012000101|INFO ||2023-12-21 10:16:07.969 main RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+20231221101607|0000012000101|INFO ||2023-12-21 10:16:07.972 main RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+20231221101607|0000012000101|INFO ||2023-12-21 10:16:07.986 main RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+20231221101608|0000012000101|WARN ||2023-12-21 10:16:08.048 main ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.zg.lowcode]' package. Please check your configuration.
+20231221101608|0000012000101|INFO ||2023-12-21 10:16:08.337 main TomcatWebServer 108 - Tomcat initialized with port(s): 8010 (http)
+20231221101608|0000012000101|INFO ||2023-12-21 10:16:08.343 main Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8010"]
+20231221101608|0000012000101|INFO ||2023-12-21 10:16:08.344 main StandardService 173 - Starting service [Tomcat]
+20231221101608|0000012000101|INFO ||2023-12-21 10:16:08.344 main StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+20231221101608|0000012000101|INFO ||2023-12-21 10:16:08.403 main [/] 173 - Initializing Spring embedded WebApplicationContext
+20231221101608|0000012000101|INFO ||2023-12-21 10:16:08.404 main ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 1019 ms
+20231221101608|0000012000101|INFO ||2023-12-21 10:16:08.663 main PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20231221101608|0000012000101|INFO ||2023-12-21 10:16:08.773 main ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+20231221101608|0000012000101|INFO ||2023-12-21 10:16:08.811 main WelcomePageHandlerMapping 53 - Adding welcome page: class path resource [static/index.html]
+20231221101609|0000012000101|INFO ||2023-12-21 10:16:09.156 main Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8010"]
+20231221101609|0000012000101|INFO ||2023-12-21 10:16:09.170 main TomcatWebServer 220 - Tomcat started on port(s): 8010 (http) with context path ''
+20231221101609|0000012000101|INFO ||2023-12-21 10:16:09.171 main DocumentationPluginsBootstrapper 160 - Context refreshed
+20231221101609|0000012000101|INFO ||2023-12-21 10:16:09.182 main DocumentationPluginsBootstrapper 163 - Found 1 custom documentation plugin(s)
+20231221101609|0000012000101|INFO ||2023-12-21 10:16:09.201 main ApiListingReferenceScanner 41 - Scanning for api listing references
+20231221101609|0000012000101|INFO ||2023-12-21 10:16:09.285 main LowCodeBackendApplication 61 - Started LowCodeBackendApplication in 2.378 seconds (JVM running for 3.297)
+20231221101614|0000012000101|INFO ||2023-12-21 10:16:14.137 http-nio-8010-exec-1 [/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20231221101614|0000012000101|INFO ||2023-12-21 10:16:14.138 http-nio-8010-exec-1 DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+20231221101614|0000012000101|INFO ||2023-12-21 10:16:14.141 http-nio-8010-exec-1 DispatcherServlet 547 - Completed initialization in 3 ms
+20231221101624|0000012000101|INFO ||2023-12-21 10:16:24.964 SpringContextShutdownHook ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+20231221101657|0000012000101|INFO ||2023-12-21 10:16:57.552 main LowCodeBackendApplication 55 - Starting LowCodeBackendApplication on DESKTOP-1CKAT7S with PID 189112 (D:\私有项目\low-code-system\backend\low-code-backend\target\classes started by 赵刚 in D:\私有项目\low-code-system\backend\low-code-backend)
+20231221101657|0000012000101|INFO ||2023-12-21 10:16:57.557 main LowCodeBackendApplication 655 - The following profiles are active: local
+20231221101658|0000012000101|INFO ||2023-12-21 10:16:58.066 main RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+20231221101658|0000012000101|INFO ||2023-12-21 10:16:58.068 main RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+20231221101658|0000012000101|INFO ||2023-12-21 10:16:58.080 main RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+20231221101658|0000012000101|WARN ||2023-12-21 10:16:58.143 main ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.zg.lowcode]' package. Please check your configuration.
+20231221101658|0000012000101|INFO ||2023-12-21 10:16:58.394 main TomcatWebServer 108 - Tomcat initialized with port(s): 8010 (http)
+20231221101658|0000012000101|INFO ||2023-12-21 10:16:58.400 main Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8010"]
+20231221101658|0000012000101|INFO ||2023-12-21 10:16:58.400 main StandardService 173 - Starting service [Tomcat]
+20231221101658|0000012000101|INFO ||2023-12-21 10:16:58.400 main StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+20231221101658|0000012000101|INFO ||2023-12-21 10:16:58.458 main [/] 173 - Initializing Spring embedded WebApplicationContext
+20231221101658|0000012000101|INFO ||2023-12-21 10:16:58.459 main ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 865 ms
+20231221101658|0000012000101|INFO ||2023-12-21 10:16:58.692 main PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20231221101658|0000012000101|INFO ||2023-12-21 10:16:58.797 main ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+20231221101658|0000012000101|INFO ||2023-12-21 10:16:58.839 main WelcomePageHandlerMapping 53 - Adding welcome page: class path resource [static/index.html]
+20231221101659|0000012000101|INFO ||2023-12-21 10:16:59.141 main Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8010"]
+20231221101659|0000012000101|INFO ||2023-12-21 10:16:59.157 main TomcatWebServer 220 - Tomcat started on port(s): 8010 (http) with context path ''
+20231221101659|0000012000101|INFO ||2023-12-21 10:16:59.158 main DocumentationPluginsBootstrapper 160 - Context refreshed
+20231221101659|0000012000101|INFO ||2023-12-21 10:16:59.170 main DocumentationPluginsBootstrapper 163 - Found 1 custom documentation plugin(s)
+20231221101659|0000012000101|INFO ||2023-12-21 10:16:59.192 main ApiListingReferenceScanner 41 - Scanning for api listing references
+20231221101659|0000012000101|INFO ||2023-12-21 10:16:59.278 main LowCodeBackendApplication 61 - Started LowCodeBackendApplication in 2.071 seconds (JVM running for 3.114)
+20231221101704|0000012000101|INFO ||2023-12-21 10:17:04.236 http-nio-8010-exec-1 [/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20231221101704|0000012000101|INFO ||2023-12-21 10:17:04.236 http-nio-8010-exec-1 DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+20231221101704|0000012000101|INFO ||2023-12-21 10:17:04.240 http-nio-8010-exec-1 DispatcherServlet 547 - Completed initialization in 4 ms
+20231221101753|0000012000101|INFO ||2023-12-21 10:17:53.337 SpringContextShutdownHook ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+20231221101758|0000012000101|INFO ||2023-12-21 10:17:58.942 main LowCodeBackendApplication 55 - Starting LowCodeBackendApplication on DESKTOP-1CKAT7S with PID 182088 (D:\私有项目\low-code-system\backend\low-code-backend\target\classes started by 赵刚 in D:\私有项目\low-code-system\backend\low-code-backend)
+20231221101758|0000012000101|INFO ||2023-12-21 10:17:58.947 main LowCodeBackendApplication 655 - The following profiles are active: local
+20231221101759|0000012000101|INFO ||2023-12-21 10:17:59.498 main RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+20231221101759|0000012000101|INFO ||2023-12-21 10:17:59.498 main RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+20231221101759|0000012000101|INFO ||2023-12-21 10:17:59.513 main RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+20231221101759|0000012000101|WARN ||2023-12-21 10:17:59.564 main ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.zg.lowcode]' package. Please check your configuration.
+20231221101759|0000012000101|INFO ||2023-12-21 10:17:59.799 main TomcatWebServer 108 - Tomcat initialized with port(s): 8010 (http)
+20231221101759|0000012000101|INFO ||2023-12-21 10:17:59.809 main Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8010"]
+20231221101759|0000012000101|INFO ||2023-12-21 10:17:59.809 main StandardService 173 - Starting service [Tomcat]
+20231221101759|0000012000101|INFO ||2023-12-21 10:17:59.809 main StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+20231221101759|0000012000101|INFO ||2023-12-21 10:17:59.870 main [/] 173 - Initializing Spring embedded WebApplicationContext
+20231221101759|0000012000101|INFO ||2023-12-21 10:17:59.870 main ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 875 ms
+20231221101800|0000012000101|INFO ||2023-12-21 10:18:00.136 main PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20231221101800|0000012000101|INFO ||2023-12-21 10:18:00.260 main ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+20231221101800|0000012000101|INFO ||2023-12-21 10:18:00.306 main WelcomePageHandlerMapping 53 - Adding welcome page: class path resource [static/index.html]
+20231221101800|0000012000101|INFO ||2023-12-21 10:18:00.632 main Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8010"]
+20231221101800|0000012000101|INFO ||2023-12-21 10:18:00.643 main TomcatWebServer 220 - Tomcat started on port(s): 8010 (http) with context path ''
+20231221101800|0000012000101|INFO ||2023-12-21 10:18:00.643 main DocumentationPluginsBootstrapper 160 - Context refreshed
+20231221101800|0000012000101|INFO ||2023-12-21 10:18:00.654 main DocumentationPluginsBootstrapper 163 - Found 1 custom documentation plugin(s)
+20231221101800|0000012000101|INFO ||2023-12-21 10:18:00.679 main ApiListingReferenceScanner 41 - Scanning for api listing references
+20231221101800|0000012000101|INFO ||2023-12-21 10:18:00.720 main LowCodeBackendApplication 61 - Started LowCodeBackendApplication in 2.197 seconds (JVM running for 3.283)
+20231221101811|0000012000101|INFO ||2023-12-21 10:18:11.496 http-nio-8010-exec-1 [/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20231221101811|0000012000101|INFO ||2023-12-21 10:18:11.496 http-nio-8010-exec-1 DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+20231221101811|0000012000101|INFO ||2023-12-21 10:18:11.497 http-nio-8010-exec-1 DispatcherServlet 547 - Completed initialization in 1 ms
+20231221101852|0000012000101|INFO ||2023-12-21 10:18:52.289 SpringContextShutdownHook ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+20231221101857|0000012000101|INFO ||2023-12-21 10:18:57.835 main LowCodeBackendApplication 55 - Starting LowCodeBackendApplication on DESKTOP-1CKAT7S with PID 132368 (D:\私有项目\low-code-system\backend\low-code-backend\target\classes started by 赵刚 in D:\私有项目\low-code-system\backend\low-code-backend)
+20231221101857|0000012000101|INFO ||2023-12-21 10:18:57.843 main LowCodeBackendApplication 655 - The following profiles are active: local
+20231221101858|0000012000101|INFO ||2023-12-21 10:18:58.677 main RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+20231221101858|0000012000101|INFO ||2023-12-21 10:18:58.679 main RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+20231221101858|0000012000101|INFO ||2023-12-21 10:18:58.694 main RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+20231221101858|0000012000101|WARN ||2023-12-21 10:18:58.782 main ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.zg.lowcode]' package. Please check your configuration.
+20231221101859|0000012000101|INFO ||2023-12-21 10:18:59.027 main TomcatWebServer 108 - Tomcat initialized with port(s): 8010 (http)
+20231221101859|0000012000101|INFO ||2023-12-21 10:18:59.032 main Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8010"]
+20231221101859|0000012000101|INFO ||2023-12-21 10:18:59.033 main StandardService 173 - Starting service [Tomcat]
+20231221101859|0000012000101|INFO ||2023-12-21 10:18:59.033 main StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+20231221101859|0000012000101|INFO ||2023-12-21 10:18:59.094 main [/] 173 - Initializing Spring embedded WebApplicationContext
+20231221101859|0000012000101|INFO ||2023-12-21 10:18:59.095 main ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 1219 ms
+20231221101859|0000012000101|INFO ||2023-12-21 10:18:59.331 main PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20231221101859|0000012000101|INFO ||2023-12-21 10:18:59.447 main ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+20231221101859|0000012000101|INFO ||2023-12-21 10:18:59.491 main WelcomePageHandlerMapping 53 - Adding welcome page: class path resource [static/index.html]
+20231221101859|0000012000101|INFO ||2023-12-21 10:18:59.938 main Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8010"]
+20231221101859|0000012000101|INFO ||2023-12-21 10:18:59.953 main TomcatWebServer 220 - Tomcat started on port(s): 8010 (http) with context path ''
+20231221101859|0000012000101|INFO ||2023-12-21 10:18:59.954 main DocumentationPluginsBootstrapper 160 - Context refreshed
+20231221101859|0000012000101|INFO ||2023-12-21 10:18:59.965 main DocumentationPluginsBootstrapper 163 - Found 1 custom documentation plugin(s)
+20231221101859|0000012000101|INFO ||2023-12-21 10:18:59.987 main ApiListingReferenceScanner 41 - Scanning for api listing references
+20231221101900|0000012000101|INFO ||2023-12-21 10:19:00.045 main LowCodeBackendApplication 61 - Started LowCodeBackendApplication in 2.648 seconds (JVM running for 3.682)
+20231221101901|0000012000101|INFO ||2023-12-21 10:19:01.493 http-nio-8010-exec-1 [/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20231221101901|0000012000101|INFO ||2023-12-21 10:19:01.493 http-nio-8010-exec-1 DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+20231221101901|0000012000101|INFO ||2023-12-21 10:19:01.498 http-nio-8010-exec-1 DispatcherServlet 547 - Completed initialization in 4 ms
+20231222170716|0000012000101|INFO ||2023-12-22 17:07:16.882 main LowCodeBackendApplication 55 - Starting LowCodeBackendApplication on DESKTOP-1CKAT7S with PID 143024 (D:\私有项目\low-code-system\backend\low-code-backend\target\classes started by 赵刚 in D:\私有项目\low-code-system\backend\low-code-backend)
+20231222170716|0000012000101|INFO ||2023-12-22 17:07:16.889 main LowCodeBackendApplication 655 - The following profiles are active: local
+20231222170717|0000012000101|INFO ||2023-12-22 17:07:17.520 main RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+20231222170717|0000012000101|INFO ||2023-12-22 17:07:17.522 main RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+20231222170717|0000012000101|INFO ||2023-12-22 17:07:17.535 main RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+20231222170717|0000012000101|WARN ||2023-12-22 17:07:17.601 main ClassPathMapperScanner 44 - No MyBatis mapper was found in '[com.zg.lowcode]' package. Please check your configuration.
+20231222170717|0000012000101|INFO ||2023-12-22 17:07:17.857 main TomcatWebServer 108 - Tomcat initialized with port(s): 8010 (http)
+20231222170717|0000012000101|INFO ||2023-12-22 17:07:17.863 main Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8010"]
+20231222170717|0000012000101|INFO ||2023-12-22 17:07:17.863 main StandardService 173 - Starting service [Tomcat]
+20231222170717|0000012000101|INFO ||2023-12-22 17:07:17.864 main StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.43]
+20231222170717|0000012000101|INFO ||2023-12-22 17:07:17.922 main [/] 173 - Initializing Spring embedded WebApplicationContext
+20231222170717|0000012000101|INFO ||2023-12-22 17:07:17.922 main ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 1003 ms
+20231222170718|0000012000101|INFO ||2023-12-22 17:07:18.213 main PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20231222170718|0000012000101|INFO ||2023-12-22 17:07:18.356 main ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+20231222170718|0000012000101|INFO ||2023-12-22 17:07:18.404 main WelcomePageHandlerMapping 53 - Adding welcome page: class path resource [static/index.html]
+20231222170718|0000012000101|INFO ||2023-12-22 17:07:18.759 main Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8010"]
+20231222170718|0000012000101|INFO ||2023-12-22 17:07:18.772 main TomcatWebServer 220 - Tomcat started on port(s): 8010 (http) with context path ''
+20231222170718|0000012000101|INFO ||2023-12-22 17:07:18.773 main DocumentationPluginsBootstrapper 160 - Context refreshed
+20231222170718|0000012000101|INFO ||2023-12-22 17:07:18.783 main DocumentationPluginsBootstrapper 163 - Found 1 custom documentation plugin(s)
+20231222170718|0000012000101|INFO ||2023-12-22 17:07:18.801 main ApiListingReferenceScanner 41 - Scanning for api listing references
+20231222170718|0000012000101|INFO ||2023-12-22 17:07:18.846 main LowCodeBackendApplication 61 - Started LowCodeBackendApplication in 2.35 seconds (JVM running for 3.339)
+20231222170730|0000012000101|INFO ||2023-12-22 17:07:30.129 http-nio-8010-exec-1 [/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20231222170730|0000012000101|INFO ||2023-12-22 17:07:30.130 http-nio-8010-exec-1 DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+20231222170730|0000012000101|INFO ||2023-12-22 17:07:30.134 http-nio-8010-exec-1 DispatcherServlet 547 - Completed initialization in 4 ms
+20231222171121|0000012000101|INFO ||2023-12-22 17:11:21.431 SpringContextShutdownHook ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
